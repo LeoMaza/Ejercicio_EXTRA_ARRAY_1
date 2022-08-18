@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+ #agrego{
+    
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#agrego .lblclass{
+    float: left;
+    width: 170px;
+    margin-top: 12px;
+}
+#agrego input[type="text"]{
+    width: 300px;
+    max-width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#agrego input[type="button"]{
+    display: block;
+    padding: 10px;
+    width: 150px;
+    margin: 10 px auto;
+    cursor: pointer;
+    margin-left: 225px;
+    margin-top: 10px ;
+}
+#agrego h2{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+#producto article{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+#producto .imagen{
+    width: 280px;
+    margin: auto;
+}
